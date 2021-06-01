@@ -31,7 +31,7 @@ function playMusicAndLyrics(shouldPause) {
         handlePlayingTime();
         window.audioElement.play();
         startDisplayingLyrics();
-        // loadWaveForm();
+        loadWaveForm();
     }
 }
 
@@ -47,6 +47,7 @@ function loadWaveForm(){
         wavesurfer.load('Dream.mp3');
         wavesurfer.on('ready', function () {
             wavesurfer.play();
+            wavesurfer.mute();  
         });
     }
 }
