@@ -39,7 +39,7 @@ const lyricsFile = `
 [01:44.22]They think that I need glasses
 [01:47.23]I just really wish that I could pass this (Wish that I could pass this)
 [01:53.23]That's what the mask is
-[01:55.47]That's what the point of te mask is
+[01:55.47]That's what the point of the mask is
 [02:01.21]So you can see I'm trying
 [02:04.21]You won't see me cryin'
 [02:05.80]I'll just keep on smilin', I'm good (Yeah, I'm good)
