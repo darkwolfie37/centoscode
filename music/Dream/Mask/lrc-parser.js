@@ -11,9 +11,9 @@ const lyricsFile = `
 [00:16.88]When they Ask me how im doing
 [00:18.69]I Say im just fine
 [00:20.61]When they Ask me how im doing
-[00:22.32]I Say im just fine
+[00:22.07]I Say im just fine
 
-[00:24.93]But the Fact is...
+[00:24.31]But the Fact is...
 [00:26.63]I can never get off my matress.
 [00:30.92]But all they can ask is..
 [00:35.11]"Why are you so sad kid?"
@@ -38,7 +38,6 @@ const lyricsFile = `
 [01:40.01]I need help, I'm failin' all my classes
 [01:44.22]They think that I need glasses
 [01:47.23]I just really wish that I could pass this (Wish that I could pass this)
-[01:47.93]So you can see I'm tryin'
 [01:53.23]That's what the mask is
 [01:55.47]That's what the point of te mask is
 [02:01.21]So you can see I'm trying
