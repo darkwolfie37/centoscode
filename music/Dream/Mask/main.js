@@ -31,7 +31,7 @@ function playMusicAndLyrics(shouldPause) {
         handlePlayingTime();
         window.audioElement.play();
         startDisplayingLyrics();
-        loadWaveForm();
+       // loadWaveForm();
     }
 }
 
