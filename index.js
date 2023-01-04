@@ -1,8 +1,13 @@
-var http = require('http');
+const express = require('express');
+var querystring = require('querystring');
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.write('Hello World!');
-  console.log(`request sent to 10.0.2.15`); //write a response to the client
-  res.end(); //end the response
-}).listen(80); //the server object listens on port 8080
+var request = require('request'); // "Request" library
+var cors = require('cors');
+
+var app = express();
+
+
+app.use(express.static(__dirname + '/html'))
+   .use(cors())
+
+app.listen(8000);
