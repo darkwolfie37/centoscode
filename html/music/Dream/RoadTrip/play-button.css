@@ -1,0 +1,53 @@
+:before, :after {
+    content: '';
+    position: absolute;
+    transition: .3s;
+}
+
+.play {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.play:before, .play:after {
+    background: #FFF;
+    height: 100%;
+    width: 51%;
+    top: 0;
+    will-change: transform;
+    z-index: -1;
+}
+.play:before {
+    left: 0;
+}
+.play:after {
+    right: 0;
+}
+.play.paused:before {
+    transform: translateX(-25%);
+}
+.play.paused:after {
+    transform: translateX(25%);
+}
+.play.paused .pause:before, .play.paused .pause:after {
+    transform: rotate(0);
+}
+
+.pause:before, .pause:after {
+    height: 100%;
+    width: 150%;
+    background: #333; /* same as bg color */
+    outline: 1px solid transparent;
+}
+.pause:before {
+    top: -100%;
+    transform-origin: 0% 100%;
+    transform: rotate(26.5deg);
+}
+.pause:after {
+    transform-origin: 0% 0%;
+    transform: rotate(-26.5deg);
+    top: 100%;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+<head>
+    <meta charset="utf-8">
+    <title>Mask - Dream</title>
+    <link rel="stylesheet" href="lyrics.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="play-button.css">
+</head>
+
+<body onload="handlePlayingTime()">
+    <section class="container" id="container">
+        
+<audio id="Audio-Class" src="Dream2.mp3"></audio>
+        <header>
+            <h1>Dream <br> Mask</h1>
+            
+            <div style="position: relative; margin-bottom: 10px;">
+                <div class="play">
+                    <div class="pause"></div>
+                </div>
+                <span class="musictimer" style="position: absolute; left: 120px; top: 50%; transform: translateY(-50%);" ><span id="time-elapsed" class="time-elapsed"></span> / <span id="time-in-song"></span></span>
+            </div>
+
+            <div id="waveform"></div>
+        </header>
+ 
+
+        <div id="lyrics-container" class="lyrics-container"></div>
+        
+    </section>
+</body>
+<script src="date-format.js"></script>
+<script src="display-lyrics.js"></script>
+<script src="lrc-parser.js"></script>
+<!-- <script src="wavesurfer.js"></script> -->
+<script src="main.js"></script>
+</html>
